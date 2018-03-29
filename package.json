@@ -1,0 +1,26 @@
+{
+  "name": "promise-splitter",
+  "version": "0.1.0",
+  "description": "split a promise list into chunks and exectes them synchronously with a retry system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giowe/promise-splitter.git"
+  },
+  "keywords": [
+    "promise",
+    "split",
+    "chunk",
+    "sync",
+    "retry"
+  ],
+  "author": "Giovanni Bruno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giowe/promise-splitter/issues"
+  },
+  "homepage": "https://github.com/giowe/promise-splitter#readme"
+}
