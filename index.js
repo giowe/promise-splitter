@@ -21,7 +21,7 @@ const splitter = (promises, options, cb) => new Promise(async (resolve, reject) 
 
   options = Object.assign(defaultOptions, options);
 
-  const { chunkSize, retryLimit, verbose, startChunk } = options;
+  const { chunkSize, retryLimit, verbose, startChunk, logger } = options;
 
   const l = promises.length;
   const chunkTotal = Math.ceil(l / chunkSize);
