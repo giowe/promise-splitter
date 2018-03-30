@@ -1,6 +1,6 @@
 {
   "name": "promise-splitter",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "split a promise list into chunks and exectes them synchronously with a retry system",
   "main": "index.js",
   "scripts": {
