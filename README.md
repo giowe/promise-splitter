@@ -9,12 +9,23 @@
 
 Split a promise list into chunks and exectes them synchronously with a retry system
 
+## Usage example
+```
+const splitter = require('promise-splitter');
+
+splitter([...array_of_promises], options)
+  .then(console.log)
+  .catch(console.log);
+```
+
 ## Options
+default option values
 ```
 {
   chunkSize: 5,
   retryLimit: 3,
   startChunk: 1,
-  verbose: false
+  verbose: false,
+  logger: console
 }
 ```
